@@ -5,7 +5,7 @@ const DisplayMovies = ({ movies }) => {
             movies.map( movie => (
             <div key={movie.id} className="mb-4 p-2 flex flex-col items-center bg-gray-100 rounded-lg shadow-2xl">
                 <h3 className="font-semibold text-2xl">{movie.title}</h3>
-                <p className="italic">Released date: {movie.release_date}</p>
+                <p className="italic">Release date: {movie.release_date}</p>
                 <p className="md:w-1/2 my-2">{movie.overview}</p>
             </div>
             ))
